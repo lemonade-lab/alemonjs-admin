@@ -1,0 +1,12 @@
+# Node dependencies
+node_modules
+log
+*.log
+*.log.*
+*.log-*
+*.log_* 
+*.logs
+*.logs.*
+*.logs-*
+*.logs_*
+*.lock
