@@ -5,7 +5,9 @@
   "author": "ningmengchongshui",
   "type": "module",
   "scripts": {
-    "bundle": "npx lerna run build",
+    "app": "yarn --cwd packages/admin dev",
+    "dev": "yarn --cwd packages/web dev",
+    "build": "npx lerna run build",
     "format": "prettier --write .",
     "check-format": "git diff --exit-code",
     "prepare": "husky"

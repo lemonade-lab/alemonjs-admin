@@ -18,3 +18,20 @@ yarn add alemonjs-admin
 apps:
   - 'alemonjs-admin'
 ```
+
+## 开发
+
+```sh
+yarn install
+```
+
+```sh
+# vite
+yarn dev
+# app
+yarn app
+```
+
+```sh
+yarn build
+```
