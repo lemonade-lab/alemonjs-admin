@@ -1,0 +1,373 @@
+.header {
+    width: 100vw;
+    height: 40px;
+    border-bottom: 1px solid rgba(0,0,0 , 0.25);
+
+}
+
+
+.circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-left: 8px;
+    background: #409EFF;
+    margin-top: 8px;
+    display: inline-block;
+}
+.red {
+    background: #F56C6C;
+}
+
+.yellow {
+    background: #E6A23C;
+}
+.green {
+    background: #67C23A;
+}
+
+.header-title {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+}
+
+.body__ {
+    width: 100vw;
+    height: calc(100vh - 40px);
+}
+
+.aside {
+    border-right: 1px solid rgba(0,0,0,0.25);
+    height: calc(100vh  - 40px);
+    width: 108px;
+    position: absolute;
+    left: 0;
+}
+
+
+.single {
+    padding-top: 40px;
+    padding-left: 34px;
+}
+.single svg {
+    width: 40px;
+    height: 60px;
+    color: #878AFA;
+}
+
+.add {
+    padding-top: 20px;
+    font-weight: 900;
+    width: 80px;
+    margin-left: 12px;
+    height: 32px;
+    background: #EEF2F7;
+    border-radius: 20px;
+    font-size: 28px;
+    margin-top: 24px;
+}
+.add div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.cc {
+    width: 90%;
+    margin-left: 5%;
+    height: 1px;
+    background: rgba(0,0,0,0.25);
+    margin-top: 12px;
+}
+
+.back {
+    color: #ffffff;
+    background: #000000;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 32px;
+    margin-top: 12px;
+}
+.yes {
+    color: #ffffff;
+    background: #D73865;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 32px;
+    margin-top: 12px;
+}
+
+.tv {
+    margin-left: 36px;
+    margin-top: 20px;
+}
+.tv svg {
+    width: 22px;
+    height: 22px;
+}
+
+.last {
+    margin-top: 48vh;
+}
+
+.center {
+    width: calc(100vw - 109px);
+    height: calc(100vh - 80px);
+    position: absolute;
+    left: 108px;
+}
+
+.welcome {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 100%;
+    line-height: 1;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 24px;
+}
+.hold {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.welcome svg {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+}
+
+.descripition {
+    margin-top: 24px;
+    margin-left: 24px;
+    color: #989898;
+}
+
+.descripition svg {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.dd {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 32px;
+}
+.card {
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 720px;
+    height: 300px;
+    background: #2B5EEE;
+    border-radius: 6px;
+    margin-left: 24px;
+    margin-top: 36px;
+    padding-top: 16px;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.invoices {
+    background: #F5BB40;
+    width: 360px;
+}
+
+.colors {
+    background: #63B87E;
+    width: 360px;
+}
+
+.img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+
+.img img {
+    background-size: cover;
+    background-position: center;
+}
+
+.project {
+    position: relative;
+    top: -108px;
+    left: 108px;
+    margin-left: 12px;
+}
+
+.project div:first-child {
+    height: 24px;
+}
+.project div:nth-child(2) {
+    font-size: 24px;
+    font-weight: bold;
+}
+.project div:nth-child(3) {
+    font-size: 12px;
+    color: #EEF2F7;
+    margin-top: 12px;
+}
+.ee {
+    margin-top: -36px;
+    background: #ffffff;
+    opacity: 0.4;
+}
+
+.card-inner {
+    width: 200px;
+    height: calc(300px - 16px - 80px - 24px - 24px - 12px - 60px);
+    margin-top: 36px;
+    margin-left: 24px;
+    display: inline-block;
+    text-align: center;
+}
+.card-inner div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-inner div:nth-child(2) {
+    font-size: 16px;
+}
+
+.card-inner1 {
+    width: 180px;
+    height: calc(300px - 16px - 80px - 24px - 24px - 12px - 60px);
+    margin-top: 36px;
+    display: inline-block;
+}
+.card-inner1 div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+    width: 180px;
+    text-align: center;
+}
+.card-inner1 div:nth-child(2) {
+    font-size: 16px;
+    width: 180px;
+    text-align: center;
+}
+
+.clients {
+    border: 1px solid rgba(0,0,0,0.25);
+    width: 520px;
+    margin-left: 24px;
+    margin-top: 24px;
+    height: 384px;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.clients-left {
+    width: 360px;
+    margin-left: 24px;
+    margin-top: 24px;
+    display: inline-block;
+}
+.clients-left div:first-child {
+    font-size: 24px;
+    font-weight: bold;
+}
+.clients-left div:last-child {
+    font-size: 16px;
+}
+.clients-right {
+    width: calc(520px - 24px - 24px - 360px - 24px - 24px );
+    margin-top: 24px;
+    margin-left: 24px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 72px;
+}
+.clients-button {
+    line-height: 3;
+    width: 80px;
+    background: #EEF2F7;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.clients-card {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid rgba(0,0,0,0.25);
+    border-radius: 6px;
+    margin-bottom: 24px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.clients-card div:first-child {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 24px;
+}
+.clients-card div:nth-child(2) , .clients-card div:nth-child(3) {
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.right-card {
+    height: 384px;
+    width: 300px;
+    background: #EEF2F7;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 24px;
+    margin-left: 24px;
+    border-radius: 12px;
+}
+.right-card-icon {
+    margin-top: 48px;
+    width: 120px;
+    height: 120px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-card-icon svg {
+    width: 32px;
+    height: 32px;
+}
+.right-card-desc {
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+}
+.right-card-right {
+    margin-top: 24px;
+    width: 80px;
+    height: 56px;
+    border-radius: 4px;
+    background: #000000;
+    margin-left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-card-right svg {
+    width: 32px;
+    height: 24px;
+}
